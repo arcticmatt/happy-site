@@ -1,0 +1,111 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-13 20:15:49.094157 UTC
+
+interface main@main:HtmlGen 8002
+  interface hash: 4689327999b82e08a7f0aee32c5a0342
+  ABI hash: 2176475cf8bb06937185ada64df218b5
+  export-list hash: 33106b0e51eb799dfc31c593346d13c9
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: a244ba8563249267ade50bece487ed31
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  HtmlGen.render
+module dependencies:
+package dependencies: array-0.5.1.1@array-0.5.1.1 base-4.9.1.0
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-CGB8BvrFgghHy5bLy0SFOg
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      hashable-1.2.6.0@hashable-1.2.6.0-3EXxoqeEgbfAKr6aGkye6x
+                      integer-gmp-1.0.0.1
+                      lucid-2.9.8.1@lucid-2.9.8.1-36mBrac1nD32yMp1HNriGQ
+                      mmorph-1.0.9@mmorph-1.0.9-5bASEvmIkr5CpdAYXwPsn0
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.0@hashable-1.2.6.0-3EXxoqeEgbfAKr6aGkye6x:Data.Hashable.Generic
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Compose base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o:Data.HashMap.Base
+import  -/  base-4.9.1.0:Data.Functor.Identity 6ee67943d44d50091e12d22df04741f0
+import  -/  base-4.9.1.0:Data.Monoid 51cc9cd8c130d49ba96b7c2c2406022b
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  lucid-2.9.8.1@lucid-2.9.8.1-36mBrac1nD32yMp1HNriGQ:Lucid.Base 0e38a4fd221c3f9127daf299acb9d8f2
+import  -/  lucid-2.9.8.1@lucid-2.9.8.1-36mBrac1nD32yMp1HNriGQ:Lucid.Html5 f4fceb4bf187172ca3000103629c0b81
+import  -/  text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text 02cbbc20bdd508fabc38de38896bbae0
+ac059676a26d4c41917d708415ace3e9
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   HtmlGen.$trModule2
+                   HtmlGen.$trModule1) -}
+8b740a7db79aa5c083cc8e17e8811be3
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "HtmlGen"#) -}
+1b074a9295402acde3059f6018df9fa8
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+80fb26dfbf2aee1663d6e0a383b9221a
+  $wrender ::
+    [Lucid.Base.HtmlT Data.Functor.Identity.Identity ()]
+    -> (# Data.HashMap.Base.HashMap
+            Data.Text.Internal.Text Data.Text.Internal.Text
+          -> Data.ByteString.Builder.Internal.Builder,
+          () #)
+  {- Arity: 1, Strictness: <L,1*U>, Inline: [0] -}
+b80816cc21bf3089944f2c541271c0e5
+  render ::
+    [Lucid.Base.HtmlT Data.Functor.Identity.Identity ()]
+    -> Lucid.Base.Html ()
+  {- Arity: 1, Strictness: <L,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: [Lucid.Base.HtmlT Data.Functor.Identity.Identity ()]) ->
+                 case HtmlGen.$wrender w of ww { (#,#) ww1 ww2 ->
+                 (ww1, ww2)
+                   `cast`
+                 (Trans
+                      (Sym (Data.Functor.Identity.N:Identity[0]
+                                <(Data.HashMap.Base.HashMap
+                                    Data.Text.Internal.Text Data.Text.Internal.Text
+                                  -> Data.ByteString.Builder.Internal.Builder,
+                                  ())>_R))
+                      (Sym (Lucid.Base.N:HtmlT[0]
+                                <Data.Functor.Identity.Identity>_R <()>_N))) }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

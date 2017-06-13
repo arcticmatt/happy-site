@@ -1,0 +1,32 @@
+Configuring aeson-pretty-0.8.4...
+Building aeson-pretty-0.8.4...
+Preprocessing library aeson-pretty-0.8.4...
+[1 of 1] Compiling Data.Aeson.Encode.Pretty ( Data/Aeson/Encode/Pretty.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Aeson/Encode/Pretty.o )
+
+Data/Aeson/Encode/Pretty.hs:58:1: warning: [-Wdeprecations]
+    Module ‘Data.Aeson.Encode’ is deprecated:
+      Use Data.Aeson or Data.Aeson.Text instead
+
+Data/Aeson/Encode/Pretty.hs:172:21: warning: [-Wdeprecations]
+    In the use of ‘encodeToTextBuilder’
+    (imported from Data.Aeson.Encode):
+    Deprecated: "Use Data.Aeson or Data.Aeson.Text instead"
+
+Data/Aeson/Encode/Pretty.hs:193:3: warning: [-Wdeprecations]
+    In the use of ‘encodeToTextBuilder’
+    (imported from Data.Aeson.Encode):
+    Deprecated: "Use Data.Aeson or Data.Aeson.Text instead"
+
+Data/Aeson/Encode/Pretty.hs:202:20: warning: [-Wdeprecations]
+    In the use of ‘encodeToTextBuilder’
+    (imported from Data.Aeson.Encode):
+    Deprecated: "Use Data.Aeson or Data.Aeson.Text instead"
+Preprocessing executable 'aeson-pretty' for aeson-pretty-0.8.4...
+[1 of 2] Compiling Paths_aeson_pretty ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_aeson_pretty.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/aeson-pretty/aeson-pretty-tmp/Paths_aeson_pretty.o )
+[2 of 2] Compiling Main             ( cli-tool/Main.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/aeson-pretty/aeson-pretty-tmp/Main.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/aeson-pretty/aeson-pretty ...
+Installing library in
+/Users/mattlim/.stack/snapshots/x86_64-osx/lts-8.18/8.0.2/lib/x86_64-osx-ghc-8.0.2/aeson-pretty-0.8.4-3a5GlcfVry737UHo5Du8Wk
+Installing executable(s) in
+/Users/mattlim/.stack/snapshots/x86_64-osx/lts-8.18/8.0.2/bin
+Registering aeson-pretty-0.8.4...

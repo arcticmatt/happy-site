@@ -1,0 +1,14 @@
+Configuring iproute-1.7.1...
+Building iproute-1.7.1...
+Preprocessing library iproute-1.7.1...
+[1 of 8] Compiling Data.IP.Addr     ( Data/IP/Addr.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/IP/Addr.o )
+[2 of 8] Compiling Data.IP.Mask     ( Data/IP/Mask.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/IP/Mask.o )
+[3 of 8] Compiling Data.IP.Range    ( Data/IP/Range.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/IP/Range.o )
+[4 of 8] Compiling Data.IP.Internal ( Data/IP/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/IP/Internal.o )
+[5 of 8] Compiling Data.IP.Op       ( Data/IP/Op.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/IP/Op.o )
+[6 of 8] Compiling Data.IP.RouteTable.Internal ( Data/IP/RouteTable/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/IP/RouteTable/Internal.o )
+[7 of 8] Compiling Data.IP.RouteTable ( Data/IP/RouteTable.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/IP/RouteTable.o )
+[8 of 8] Compiling Data.IP          ( Data/IP.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/IP.o )
+Installing library in
+/Users/mattlim/.stack/snapshots/x86_64-osx/lts-8.18/8.0.2/lib/x86_64-osx-ghc-8.0.2/iproute-1.7.1-EJjAtfniBUorobFQnk7lR
+Registering iproute-1.7.1...

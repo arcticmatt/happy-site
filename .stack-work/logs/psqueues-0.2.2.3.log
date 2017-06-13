@@ -1,0 +1,40 @@
+Configuring psqueues-0.2.2.3...
+Building psqueues-0.2.2.3...
+Preprocessing library psqueues-0.2.2.3...
+[1 of 7] Compiling Data.OrdPSQ.Internal ( src/Data/OrdPSQ/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/OrdPSQ/Internal.o )
+
+src/Data/OrdPSQ/Internal.hs:6:14: warning: [-Wtrustworthy-safe]
+    ‘Data.OrdPSQ.Internal’ is marked as Trustworthy but has been inferred as safe!
+
+src/Data/OrdPSQ/Internal.hs:75:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[2 of 7] Compiling Data.OrdPSQ      ( src/Data/OrdPSQ.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/OrdPSQ.o )
+
+src/Data/OrdPSQ.hs:15:14: warning: [-Wtrustworthy-safe]
+    ‘Data.OrdPSQ’ is marked as Trustworthy but has been inferred as safe!
+[3 of 7] Compiling Data.BitUtil     ( src/Data/BitUtil.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/BitUtil.o )
+[4 of 7] Compiling Data.IntPSQ.Internal ( src/Data/IntPSQ/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/IntPSQ/Internal.o )
+
+src/Data/IntPSQ/Internal.hs:69:1: warning: [-Wunused-imports]
+    The import of ‘foldr’ from module ‘Data.Foldable’ is redundant
+
+src/Data/IntPSQ/Internal.hs:79:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[5 of 7] Compiling Data.HashPSQ.Internal ( src/Data/HashPSQ/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/HashPSQ/Internal.o )
+
+src/Data/HashPSQ/Internal.hs:57:1: warning: [-Wunused-imports]
+    The import of ‘foldr’ from module ‘Data.Foldable’ is redundant
+
+src/Data/HashPSQ/Internal.hs:62:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[6 of 7] Compiling Data.HashPSQ     ( src/Data/HashPSQ.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/HashPSQ.o )
+[7 of 7] Compiling Data.IntPSQ      ( src/Data/IntPSQ.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/IntPSQ.o )
+Installing library in
+/Users/mattlim/.stack/snapshots/x86_64-osx/lts-8.18/8.0.2/lib/x86_64-osx-ghc-8.0.2/psqueues-0.2.2.3-9nDehYbroydEusqdFJopTa
+Registering psqueues-0.2.2.3...

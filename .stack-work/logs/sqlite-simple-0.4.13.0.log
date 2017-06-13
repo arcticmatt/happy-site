@@ -1,0 +1,28 @@
+Configuring sqlite-simple-0.4.13.0...
+Building sqlite-simple-0.4.13.0...
+Preprocessing library sqlite-simple-0.4.13.0...
+[ 1 of 10] Compiling Database.SQLite.Simple.Types ( Database/SQLite/Simple/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/SQLite/Simple/Types.o )
+[ 2 of 10] Compiling Database.SQLite.Simple.Time.Implementation ( Database/SQLite/Simple/Time/Implementation.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/SQLite/Simple/Time/Implementation.o )
+[ 3 of 10] Compiling Database.SQLite.Simple.Time ( Database/SQLite/Simple/Time.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/SQLite/Simple/Time.o )
+[ 4 of 10] Compiling Database.SQLite.Simple.ToField ( Database/SQLite/Simple/ToField.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/SQLite/Simple/ToField.o )
+[ 5 of 10] Compiling Database.SQLite.Simple.ToRow ( Database/SQLite/Simple/ToRow.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/SQLite/Simple/ToRow.o )
+[ 6 of 10] Compiling Database.SQLite.Simple.Ok ( Database/SQLite/Simple/Ok.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/SQLite/Simple/Ok.o )
+[ 7 of 10] Compiling Database.SQLite.Simple.Internal ( Database/SQLite/Simple/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/SQLite/Simple/Internal.o )
+
+Database/SQLite/Simple/Internal.hs:22:1: warning: [-Wdodgy-imports]
+    Module ‘Prelude’ does not export ‘catch’
+[ 8 of 10] Compiling Database.SQLite.Simple.FromField ( Database/SQLite/Simple/FromField.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/SQLite/Simple/FromField.o )
+
+Database/SQLite/Simple/FromField.hs:37:1: warning: [-Wunused-imports]
+    The import of ‘Applicative’
+    from module ‘Control.Applicative’ is redundant
+[ 9 of 10] Compiling Database.SQLite.Simple.FromRow ( Database/SQLite/Simple/FromRow.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/SQLite/Simple/FromRow.o )
+[10 of 10] Compiling Database.SQLite.Simple ( Database/SQLite/Simple.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/SQLite/Simple.o )
+
+Database/SQLite/Simple.hs:105:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+Installing library in
+/Users/mattlim/.stack/snapshots/x86_64-osx/lts-8.18/8.0.2/lib/x86_64-osx-ghc-8.0.2/sqlite-simple-0.4.13.0-FwjAbqA5qVV8VDHxpvCP7M
+Registering sqlite-simple-0.4.13.0...
