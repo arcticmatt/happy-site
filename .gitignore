@@ -2,4 +2,4 @@
 *.swo
 *.swn
 *.o
-
+.stack-work/*
