@@ -30,3 +30,4 @@ main = do
       items <- liftIO $ S.getRandItems conn 3
       let contents = fmap (L.toHtml . S.content . fromJust) items
       lucid $ H.render contents
+    get "/color-script.js" $ file "color-script.js"
