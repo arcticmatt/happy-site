@@ -24,10 +24,9 @@ main :: IO ()
 main = do
   port <- liftM read $ getEnv "PORT"
   scotty port $ do
-    get "/" $ W.html "Hello World"
-    -- middleware $ staticPolicy (noDots >-> addBase "static")
-    -- get "/" $ do
-    --   conn <- liftIO $ open S.tblname
-    --   items <- liftIO $ S.getRandItems conn 3
-    --   let contents = fmap (L.toHtml . S.content . fromJust) items
-    --   lucid $ H.render contents
+    middleware $ staticPolicy (noDots >-> addBase "static")
+    get "/" $ do
+      conn <- liftIO $ open S.tblname
+      items <- liftIO $ S.getRandItems conn 3
+      let contents = fmap (L.toHtml . S.content . fromJust) items
+      lucid $ H.render contents
